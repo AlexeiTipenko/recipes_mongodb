@@ -1,0 +1,53 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    title Recipes
+    link(rel='stylesheet', type='text/css', href='style.css')
+    //pointing to stylesheet and recipePage.js
+
+    script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js")
+    script(src='recipePage.js')
+    //Async call getRecipes from scripts.js
+
+  body
+    h1 Web Dev Assignment 2
+    div
+      form
+        label(for='recipeSelect') Menu:
+        br
+        select#recipeSelect
+        // Dropdown menu for recipes
+
+    button(type='button')#recipeViewButton View
+    button(type='button')#recipeSubmitButton Submit
+    // View and Submit buttons
+
+    div(class = "check" style = 'display:none')#confirmed    &#10004;
+    // Checkmark
+
+    form
+      fieldset
+        // Textfields for the name, duration, ingredients, steps and notes for a given recipe
+        // Each textfield has a label above it and an ID for accessing it's contents
+        div
+          label(for='recipeName') Name:
+          br
+          input#recipeName(style='width:300px')
+        div
+          label(for='recipeDuration') Duration:
+          br
+          input#recipeDuration(style='width:300px')
+        div
+          label(for='recipeIngredients') Ingredients:
+          br
+          textarea#recipeIngredients(style='width:400px; height:100px')
+        div
+          label(for='recipeDirections') Steps:
+          br
+          textarea#recipeDirections(style='width:400px; height:150px')
+        div
+          label(for='recipeNotes') Notes:
+          br
+          textarea#recipeNotes(style='width:400px; height:50px')
+      br
