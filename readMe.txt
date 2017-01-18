@@ -1,4 +1,3 @@
-COMP 2406 - Assignment 5
 Name: Alexei Tipenko (100995947)
 Date: Friday, December 9th, 2016
 
