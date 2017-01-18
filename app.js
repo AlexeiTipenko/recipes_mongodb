@@ -1,15 +1,14 @@
 /*
-		COMP 2406 - Assignment 5
-		Name: Alexei Tipenko (100995947)
-		Date: Friday, December 9th, 2016
+Name: Alexei Tipenko (100995947)
+Date: Friday, December 9th, 2016
 
-		* Developed in MacOS *
-		* Tested with Chrome browser *
+* Developed in MacOS *
+* Tested with Chrome browser *
 
-		Program: This is a database-backed web app that uses Node.js,
-						 Express, Pug, and Mongo. The app is for dispaying
-						 and updating recipes using Pug templating in the front end
-						 and MongoDB for storage on the back end.
+Program: This is a database-backed web app that uses Node.js,
+	 Express, Pug, and Mongo. The app is for dispaying
+	 and updating recipes using Pug templating in the front end
+	 and MongoDB for storage on the back end.
 */
 
 var express = require('express');
