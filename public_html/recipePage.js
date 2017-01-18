@@ -1,6 +1,4 @@
 //Client-side interaction controller for Recipe Display page
-//Made for Comp2406 Fall 2016 - Assignment 5 
-
 
 $(document).ready(function(){
 	//register two buttons
